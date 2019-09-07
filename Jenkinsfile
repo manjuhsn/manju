@@ -8,9 +8,10 @@ pipeline {
             echo 'Hi hello'
           }
         }
-        stage('') {
+        stage('job run') {
           steps {
             echo 'Manju'
+            build 'buildbmc1'
           }
         }
       }
